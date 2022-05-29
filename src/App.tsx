@@ -1,6 +1,7 @@
 import "./styles.css";
 import { BrowserRouter, Link } from "react-router-dom";
-import Expenses from "./routes/expenses";
+import Expenses from "./routes/Expenses";
+import Invoices from "./routes/Invoices";
 
 export default function App() {
   return (
@@ -13,10 +14,11 @@ export default function App() {
         }}
       >
         <Link to="/invoices">Invoices</Link> |{" "}
-        <Link to="/routes/expenses.tsx">Expenses</Link> |{" "}
+        <Link to="/src/routes/expenses.tsx">Expenses</Link> |{" "}
         <Link to="/cash">Cashflow</Link> | <Link to="/debt">Debt</Link>
       </nav>
       <Expenses />
+      <Invoices />
     </div>
   );
 }
