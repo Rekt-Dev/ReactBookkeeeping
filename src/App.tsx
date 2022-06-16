@@ -6,7 +6,7 @@ import Invoices from "./routes/Invoices";
 export default function App() {
   return (
     <div className="App">
-      <h1>React Bookeeping App</h1>
+      <h1>React Bookeeping </h1>
       <nav
         style={{
           borderBottom: "solid 3px",
