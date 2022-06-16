@@ -10,7 +10,7 @@ export default function App() {
       <nav
         style={{
           borderBottom: "solid 3px",
-          paddingBottom: "1rem"
+          paddingBottom: "2rem"
         }}
       >
         <Link to="/invoices">Invoices</Link> |{" "}
